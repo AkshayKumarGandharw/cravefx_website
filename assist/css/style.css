@@ -86,6 +86,7 @@ a{
 }
 a:hover{
     color:#FF006F;
+
  } 
 #nav_section #carousel_style_1 {
     bottom:120px; 
@@ -116,12 +117,7 @@ a:hover{
  }
 /* animate css */
 #carousel_style_1 .arrow_1 {
-   // animation-name: my_arrow1_animi ;
-   // animation:animate__shakeY ; 
-   animation-fill-mode:ease-out;
-   animation-direction:reverse;
-   animation-delay:1s;
-   animation-duration-count: 2; 
+   animation:my_arrow1_animi 0.8s ease-in-out infinite alternate-reverse;
   }
 @keyframe my_arrow1_animi{
 
@@ -131,7 +127,7 @@ a:hover{
     100%{
         margin-top:40px;
     }
-    animation:my_arrow1_animi 3s 3s 2 reverse backwords;
+   
 }
 
 /* .my_scroll_up_down  .nav-link {
@@ -139,7 +135,66 @@ a:hover{
     color:black;
 } */
 /* Autoplaying carousel end*/
+/* swiper start */
+#swiper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:300px;
+    /* background-color:#FF006F; */
 
+}
+
+#swiper .slider-wrapper{
+    overflow:hidden;
+    padding:0px 70px;
+    max-width:1350px; 
+    margin:0px 50px;
+}
+
+#swiper .slider-wrapper .card-list .card-item{
+    padding:20px;
+    text-align:center;
+    box-shadow:0px 5px 15px gray;
+    margin:20px auto;
+    border-radius:20px;
+    background-color:white;
+    /* width:200px; */
+    
+}
+
+#swiper .slider-wrapper .card-list .card-item img{
+    width:100%;
+    height:150px;
+    filter:grayscale(100%);
+    transition: all 0.4s;
+}
+#swiper .slider-wrapper .card-list .card-item img:hover{
+    filter:grayscale(0%);
+}
+#swiper .slider-wrapper .swiper-pagination-bullet{
+    background-color:#bdc3c7 ;
+    height:16px;
+    width:16px;
+    opacity:1;
+    transition:all 0.6s;
+}
+#swiper .slider-wrapper .swiper-pagination-bullet-active{
+    background-color:#566573;
+    height:18px;
+    width:18px;
+}
+#swiper .slider-wrapper .button-swiper{
+    color:white;
+    transition:all 0.5s;
+    padding:25px;
+    border-radius:50%;
+}
+#swiper .slider-wrapper .button-swiper:hover{
+    background-color:green;
+}
+
+/* swiper end */
 
 /* Responsive web page start */
 @media screen and (max-width:992px)
