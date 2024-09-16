@@ -6,68 +6,50 @@
 }
 /* all buttons start*/
 
-
 .btn-pink{
     background-color:#FF006F;
 }
 .btn-blue{
     background-color:#1426F9;
 }
-
 #self_btn{
     border-radius:30px;
     padding:12px 30px;
-    transition:all 0.5s;
-    
+    transition:all 0.5s;   
 }
 #self_btn1{
     border-radius:30px;
-    padding:12px 30px;
-    
+    padding:12px 30px;   
 }
 #self_btn:hover{
-    
     transform:scale(1.1);
 }
 /* all buttons end*/
 /* navbar start */
 
-#nav_section .navbar .container ul li {
-    
-}
-#nav_section .navbar .container ul li a {
+#nav_section .navbar .container-lg .nav-link {
     font-weight:700;
     color:white;
 }
-#nav_section .navbar .container .navbar-nav li a {
-    
-  list-style:none;
-  margin-left:50px;
-  font-weight:bold;
-  /* padding:0px;  */
+#nav_section .navbar .container-lg #btn_ul .nav-item .nav-link {
+    list-style:none;
 }
-#nav_section .navbar .container .nav-link:hover{
-    border-bottom:3px solid white;
-    transition:all 1s;
+#ul_link .nav-item .nav-link {
+   margin-right:20px;  
 }
-#nav_section .navbar .container ul li a #btn_ul{
-
-}
-#nav_section .navbar .container ul{
-    align-item:left;
+#nav_section .navbar .container-lg #ul_btn .nav-link:hover{
+     transition:all 1s;
 }
 /* navbar end */
 /* Autoplaying carousel start*/
 
 #nav_section .carousel-item .w-100 {
-
     height:100vh;
 }
 .my_scroll_up_down{
    background-color:white;
    padding:0;
    left:70px;
-   
    transition:all 0.4s;
 }
 #nav_section .my_scroll_up_down .navbar-nav .nav-link{
@@ -77,37 +59,144 @@
     height:80px;
 }
 #nav_section .my_scroll_up_down img {
-    height:80px;
+    height:100px;   
 }
-#nav_section .carousel-caption {
-    
-    padding-bottom:130px; 
- }
-#myh2_para{
+/* text-content in home page */
+ .myh2_para2{
+    color:white;
+    width:100%;
+    text-align:left;  
+} 
+.myh2_para{
     color:white;
     width:50%;
-    text-align:left;
-    padding-left:80px;
-
+    text-align:left;  
 }
-
 h2{
     font-weight:bold;
-    /* margin-bottom:160px; */
-    font-size:53px;
-    
+    font-size:50px;   
 }
  p{
-   margin-bottom:20px;
+   bottom:20px;
    font-weight:bold;
 }
 a{
     color:white;
     font-weight:bold;
-   
 }
+a:hover{
+    color:#FF006F;
+ } 
+#nav_section #carousel_style_1 {
+    bottom:120px; 
+    left:250px;
+ }
+ #nav_section #carousel_style_2 {
+    bottom:120px; 
+    left:650px;
+ }
+ #nav_section #carousel_style_3 {
+    bottom:90px; 
+    left:250px;
+ }
+ #nav_section #carousel_style_1 .arrow_1{
+    width:10%;
+    margin-top:40px;
+    color:white;
+ }
+ #nav_section #carousel_style_2 .arrow_2{
+    width:10%;
+    margin-top:40px;
+    color:white;
+ }
+ #nav_section #carousel_style_3 .arrow_3{
+    width:10%;
+    margin-top:40px;
+    color:white;
+ }
+/* animate css */
+#carousel_style_1 .arrow_1 {
+   // animation-name: my_arrow1_animi ;
+   // animation:animate__shakeY ; 
+   animation-fill-mode:ease-out;
+   animation-direction:reverse;
+   animation-delay:1s;
+   animation-duration-count: 2; 
+  }
+@keyframe my_arrow1_animi{
+
+    0%{
+        margin-top:0px;
+    }
+    100%{
+        margin-top:40px;
+    }
+    animation:my_arrow1_animi 3s 3s 2 reverse backwords;
+}
+
 /* .my_scroll_up_down  .nav-link {
     
     color:black;
 } */
 /* Autoplaying carousel end*/
+
+
+/* Responsive web page start */
+@media screen and (max-width:992px)
+{
+    /*complete carousel -1  start */
+     h2{
+        font-size:40px; 
+    }
+    #nav_section #carousel_style_1 { 
+        left:150px;
+     }
+    p{
+        font-size:13px;
+    }
+    /*complete carousel -1  end */
+
+
+    
+    
+     
+}
+@media screen and (max-width:768px)
+{
+     /*complete carousel -1  start */
+     h2{
+        font-size:35px; 
+    } 
+    #nav_section #carousel_style_1 { 
+        left:120px;
+     }
+    p{
+        font-size:11px;
+        font-weight:600;
+    }
+     /*complete carousel -1  end */
+     
+
+
+}
+@media screen and (max-width:576px)
+{ 
+     /*complete carousel -1  start */
+    h2{
+        font-size:35px;   
+    } 
+    #nav_section #carousel_style_1 {
+        bottom:150px; 
+        left:110px;
+     }
+     .myh2_para{
+         width:100%;
+    }
+    p{
+        font-size:11px;
+     }
+      /*complete carousel -1  end */
+     
+    
+}
+/* Responsive web page end */

@@ -14,3 +14,7 @@ window.addEventListener('scroll',()=>{
         
     }
 });
+
+
+
+AOS.init();
