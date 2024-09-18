@@ -17,6 +17,8 @@ window.addEventListener('scroll',()=>{
 
 AOS.init();
 
+// carousel use autoplay
+
 // swiper use for js
  new Swiper('.slider-wrapper', {
     // Optional parameters
