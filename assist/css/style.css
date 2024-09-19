@@ -85,6 +85,22 @@
     transform: translateY(-5px);
     color:#FF006F;
 }
+.btn_blog{
+    background-color:transparent;
+    border:1px solid black;
+    padding:5px 20px;
+    border-radius:3px;
+    color:white;
+    background:linear-gradient(rgba(5, 5, 5, 0.5),rgba(0, 0, 0, 0.5));
+    transition:all 0.4s;
+}
+ .btn_blog:hover{
+    background-color:#FF006F;
+    border:1px solid black;
+    padding:5px 20px;
+    border-radius:3px;
+
+} 
 /* #self_btn2:hover{
     background-color:#0B75FF;
     transform: translateY(-10px);
@@ -280,7 +296,9 @@ a:hover{
 #cravefx_section{
     background-color:#ED009C;
     width:100%;
-    
+    position:relative;
+    left:0px;
+    bottom:0px;
 }
 #cravefx-nav_section .container-fluild .row .col-md-6 h2{
    padding:0px 100px; 
@@ -294,13 +312,37 @@ a:hover{
     background-color:#FCFD03;
     /* background:url('./assist/img/about-bg-2.png') ; */
      height:auto; 
+} 
+#latestwork_section .myLw_img{
+    overflow:hidden;
+    height:auto; 
+    position:relative;
 }
 .myLw_img{
     width:100%;
     height:100%;
-    border-radius:20px;
-    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('./assist/img/Funwithbili-Thumb.jpg')
+    border-radius:20px;   
+} 
+.myLw_content{
+    color:white;
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    padding:20px 20px 20px 20px;
+    
 }
+#latestwork_section .myLw_img img{
+    transition:all 0.4s;
+    border-radius:20px;
+    transform:scale(1);
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url(../img/Funwithbili-Thumb.jpg);
+}
+#latestwork_section .myLw_img:hover img{
+    transform:scale(1.15);
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url(../img/Funwithbili-Thumb.jpg);   
+}
+
 
  /* #latestwork_section .container-lg .col-md-6 .myLw_img img:hover{
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
@@ -370,11 +412,41 @@ a:hover{
     margin-top:50px;
 
 }
-.blog{
+#ourhighlights_section .blog{
+    overflow:hidden;
+    position:relative;
     width:100%;
-    hight:100%;
+    /* hight:100%; */
     border-radius:10px;
 }
+#ourhighlights_section .blog img{
+  //  transform:scale(2);
+    height:400px;
+    transition:all 0.5s;
+}
+#ourhighlights_section .blog:hover img{
+    transform:scale(1.15);
+   
+    background-color:transparent;
+}
+#ourhighlights_section .blog .myhighlight_content{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:30px;
+}
+#ourhighlights_section .blog .mybtn_blog{
+    position:absolute;
+    top:0;
+    left:0;
+}
+#ourhighlights_section .blog :hover .btn_blog{
+    width:100%;
+    height:100%;
+    background:transparent;
+}
+
 /* our highlights section end */
 /* Ready to collaborate section start */
 #readytocollaborate_section{
@@ -392,8 +464,8 @@ footer{
     height:auto;
     background-color:white;
 }
-.comman_propety2{
-    padding:40px 0px; 
+h6{
+    padding:10px 0px; 
 }
 /* footer end */
 
