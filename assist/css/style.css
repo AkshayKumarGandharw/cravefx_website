@@ -1,3 +1,4 @@
+
 /* write the css */
 *{
     margin:0px;
@@ -15,13 +16,21 @@
 .btn-blue{
     background-color:#1426F9;
 }
+.text-blue{
+    color:#1426F9;
+}
 .btn-lightblue{
     background-color:#0B75FF;
 }
 .text-lightblue{
     color:#0B75FF;
 }
-
+.text-lightblue{
+    color:#0B75FF;
+}
+.bg-yellow{
+    background-color:#FFFF21;
+}
 #self_btn{
     border-radius:30px;
     padding:12px 30px;
@@ -48,10 +57,23 @@
     border:2px solid #FF006F;
     transition:all 0.5s;
 }
+#self_btn4{
+    border-radius:30px;
+    padding:12px 30px;   
+    background-color:#FF006F;
+    font-weight:bold;
+    color:white;
+    transition:all 0.5s;
+}
 #self_btn2:hover{
     background-color:#0B75FF;
     transform: translateY(-5px);
     transition:all 0.5s;
+}
+
+#self_btn4:hover{
+    background-color:#FF006F;
+    transform: translateY(-5px);
 }
 #self_btn1:hover{
     background-color:#1426F9;
@@ -292,9 +314,90 @@ a:hover{
 #imagination_section{
     background-color:white;
     width:100%;
-    height:400px;
+    height:auto;
+}
+#mycols_content{
+    margin-top:100px;
+}
+.comman_property{
+    border-radius:20px;
+    /* width:250px; */
+    height:auto;
+    padding:50px 34px 30px 34px;
+    color:white;
+}
+.comman_property p{
+    font-weight:580;
+}
+#content_div1{
+     margin-top:30px;
+   
+}
+#content_div2{
+    margin-top:40px;
+   margin-bottom:30px;
+}
+#content_div3{
+    padding-bottom:20px;
+   
+}
+#content_div4{
+    padding-top:50px;
+    margin-top:20px;
+}
+#content_div5{
+    margin-top:30px;
+}
+#content_div6{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+#content_div7{
+    margin-top:0px;
+   margin-bottom:70px;
+}
+#content_div8{
+   margin-top:70px;
+   
+  margin-bottom:40px;
 }
 /* imagination section end */
+/* our highlights section start */
+#ourhighlights_section{
+    width:100%;
+    height:auto;
+    background-color:#FF006F;
+    margin-top:50px;
+
+}
+.blog{
+    width:100%;
+    hight:100%;
+    border-radius:10px;
+}
+/* our highlights section end */
+/* Ready to collaborate section start */
+#readytocollaborate_section{
+    width:100%;
+    height:auto;
+    background:url('../img/footer-bg-min.png') no-repeat;
+    background-size:100%;
+    background-position:center center;
+
+}
+/* Ready to collaborate section end */
+/* footer start */
+footer{
+    width:100%;
+    height:auto;
+    background-color:white;
+}
+.comman_propety2{
+    padding:40px 0px; 
+}
+/* footer end */
+
+
 
 
 /* Responsive web page start */
