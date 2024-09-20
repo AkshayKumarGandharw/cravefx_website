@@ -6,7 +6,18 @@
     box-sizing:border-box;
 }
 /* all buttons start*/
-
+.myfixed_btn{
+    position:fixed;
+    right:0;
+    bottom:0;
+}
+ #whatsapp_Qr{
+    position:fixed;
+    bottom:90px;
+    right:10px;
+    width:200px;
+    height:200px;
+} 
 .btn-pink{
     background-color:#FF006F;
 }
@@ -402,6 +413,9 @@ a:hover{
    margin-top:70px;
    
   margin-bottom:40px;
+}
+#imagination_section h4 a:hover{
+    color:black;
 }
 /* imagination section end */
 /* our highlights section start */
