@@ -97,29 +97,18 @@
     color:#FF006F;
 }
 .btn_blog{
+    margin:20px;
     background-color:transparent;
-    border:1px solid black;
-    padding:5px 20px;
+    border:1px solid white;
+    padding:5px 7px;
     border-radius:3px;
     color:white;
-    background:linear-gradient(rgba(5, 5, 5, 0.5),rgba(0, 0, 0, 0.5));
     transition:all 0.4s;
 }
  .btn_blog:hover{
     background-color:#FF006F;
-    border:1px solid black;
-    padding:5px 20px;
-    border-radius:3px;
-
+    border:1px solid #FF006F;
 } 
-/* #self_btn2:hover{
-    background-color:#0B75FF;
-    transform: translateY(-10px);
-    transition:all 0.5s;
-} */
-#self_btn2{
-
-}
 #self_btn:hover{
     transform:scale(1.1);
 }
@@ -235,13 +224,13 @@ a:hover{
     display:flex;
     align-items:center;
     justify-content:center;
-    min-height:300px;
+    min-height:200px;
 }
 #swiper .slider-wrapper{
     overflow:hidden;
     padding:0px 70px;
     max-width:1350px; 
-    margin:0px 50px;
+    margin:0px 40px;
 }
 #swiper .slider-wrapper .card-list .card-item{
     padding:20px;
@@ -253,7 +242,7 @@ a:hover{
 }
 #swiper .slider-wrapper .card-list .card-item img{
     width:100%;
-    height:150px;
+    height:80px;
     filter:grayscale(100%);
     transition: all 0.4s;
 }
@@ -275,15 +264,7 @@ a:hover{
     height:18px;
     width:18px;
 }
-/* #swiper .slider-wrapper .button-swiper{
-    color:white;
-    transition:all 0.5s;
-    padding:25px;
-    border-radius:50%;
-} */
-/* #swiper .slider-wrapper .button-swiper:hover{
-    background-color:green;
-} */
+
 #swiper .slider-wrapper .swiper-button-prev:hover{
    background-color:blue;
    width:35px;
@@ -311,56 +292,58 @@ a:hover{
     left:0px;
     bottom:0px;
 }
-#cravefx-nav_section .container-fluild .row .col-md-6 h2{
-   padding:0px 100px; 
-}
-#cravefx-nav_section .container-fluild .row .col-md-6 h4{
-    padding:20px 300px; 
+
+#cravefx_section .container-fluid .row #cravefx_contend_div h4{
+    padding:0px 30px 0px 0px; 
+    line-height:38px;  
  }
 /* cravefx end */
 /* Latest-work start */
 #latestwork_section{
-    background-color:#FCFD03;
-    /* background:url('./assist/img/about-bg-2.png') ; */
-     height:auto; 
-} 
-#latestwork_section .myLw_img{
-    overflow:hidden;
+   // background-color:#FCFD03;
+    background:yellow;
+}
+#latestwork_section .container-lg{
+    
     height:auto; 
-    position:relative;
+    background:url(../img/latest_work_background_img_3.png),url(../img/latest_work_background_img_2.png),url(../img/latest_work_background_img_1.png),url(../img/latest_work_background_img_4.png);
+    background-position:0%,0%,0%,33%,66%,66%,100%;
+    background-size:cover;
 }
-.myLw_img{
+
+#latestwork_section .container-lg .col-md-6 .myLw_img_div {
     width:100%;
-    height:100%;
-    border-radius:20px;   
-} 
-.myLw_content{
+    position:relative;
+    overflow:hidden;
+    border-radius:10px;
+    
+}
+#latestwork_section .container-lg .col-md-6 .myLw_img_div img{  
+    transform:scale(1);  
+    border-radius:10px;
+    transition:all 1s; 
+    
+  }
+  #latestwork_section .container-lg .col-md-6 .myLw_img_div:hover img{
+     transform:scale(1.1);
+     transition:all 1s; 
+  }
+  #latestwork_section .container-lg .col-md-6 .myLw_img_div .myLw_content{
+     position:absolute;
+     width:100%;
+     left:0;
+     bottom:0;
+     padding: 500px 30px 30px 30px;
+     transition:all 2s;
+  }
+  #latestwork_section .container-lg .col-md-6 .myLw_img_div .myLw_content:hover{
     color:white;
-    position:absolute;
-    bottom:0;
-    right:0;
-    left:0;
-    padding:20px 20px 20px 20px;
-    
-}
-#latestwork_section .myLw_img img{
-    transition:all 0.4s;
-    border-radius:20px;
-    transform:scale(1);
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url(../img/Funwithbili-Thumb.jpg);
-}
-#latestwork_section .myLw_img:hover img{
-    transform:scale(1.15);
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url(../img/Funwithbili-Thumb.jpg);   
-}
+    background:linear-gradient(rgba(5,5,5,0.5),rgba(0,0,0,0.5));
+    transition:all 2s;
+  }
+/* -------------comment------------- */
 
-
- /* #latestwork_section .container-lg .col-md-6 .myLw_img img:hover{
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-    
-    transform:scale(1.05);
-    transition:all 0,8s;
-}  */
+/* -------------comment------------- */
 /* Latest-work end */
 
 /* imagination section start */
@@ -369,12 +352,24 @@ a:hover{
     width:100%;
     height:auto;
 }
+#imagination_section #contenth4{
+    line-height:35px;
+}
+#imagination_section #contenth4 a{
+    transition:all 1s;
+    text-decoration: none;
+    font-weight:normal;
+}
+#imagination_section #contenth4 a:hover{
+    color:#212529;
+    transition:all 1s;
+    
+}
 #mycols_content{
     margin-top:100px;
 }
 .comman_property{
     border-radius:20px;
-    /* width:250px; */
     height:auto;
     padding:50px 34px 30px 34px;
     color:white;
@@ -411,11 +406,64 @@ a:hover{
 }
 #content_div8{
    margin-top:70px;
-   
-  margin-bottom:40px;
+   margin-bottom:40px;
 }
-#imagination_section h4 a:hover{
-    color:black;
+
+#imagination_section #content_div1{
+    transition:all 1s;
+}
+#imagination_section #content_div1:hover{
+    transform:scale(1.1);
+    transition:all 1s;
+}
+#imagination_section #content_div2{
+    transition:all 1s;
+}
+#imagination_section #content_div2:hover{
+    transform:scale(1.1);
+    transition:all 1s;
+}
+#imagination_section #content_div3{
+    transition:all 1s;
+}
+#imagination_section #content_div3:hover{
+    transform:scale(1.1);
+    transition:all 1s;
+}
+#imagination_section #content_div4{
+    transition:all 1s;
+}
+#imagination_section #content_div4:hover{
+    transform:scale(1.1);
+    transition:all 1s;
+}
+#imagination_section #content_div5{
+    transition:all 1s;
+}
+#imagination_section #content_div5:hover{
+    transform:scale(1.1);
+    transition:all 1s;
+}
+#imagination_section #content_div6{
+    transition:all 1s;
+}
+#imagination_section #content_div6:hover{
+    transform:scale(1.1);
+    transition:all 1s;
+}
+#imagination_section #content_div7{
+    transition:all 1s;
+}
+#imagination_section #content_div7:hover{
+    transform:scale(1.1);
+    transition:all 1s;
+}
+#imagination_section #content_div8{
+    transition:all 1s;
+}
+#imagination_section #content_div8:hover{
+    transform:scale(1.1);
+    transition:all 1s;
 }
 /* imagination section end */
 /* our highlights section start */
@@ -424,52 +472,66 @@ a:hover{
     height:auto;
     background-color:#FF006F;
     margin-top:50px;
-
 }
 #ourhighlights_section .blog{
     overflow:hidden;
     position:relative;
     width:100%;
-    /* hight:100%; */
     border-radius:10px;
+    transition:all 1s; 
 }
 #ourhighlights_section .blog img{
-  //  transform:scale(2);
     height:400px;
-    transition:all 0.5s;
+    transform:scale(1.15);  
+    transition:all 0.5s; 
 }
 #ourhighlights_section .blog:hover img{
-    transform:scale(1.15);
-   
-    background-color:transparent;
+    transform:scale(1.3);    
+    transition:all 1s; 
 }
+
 #ourhighlights_section .blog .myhighlight_content{
     position:absolute;
     bottom:0;
     left:0;
     right:0;
-    padding:30px;
+    padding:500px 40px 30px 40px;
+    background:linear-gradient(rgba(5,5,5,0.5),rgba(0,0,0,0.5));
+    background-size:100%;
+    
 }
+#ourhighlights_section .blog .myhighlight_content p{
+    font-weight:500;
+    letter-spacing:1px;
+    font-size:16px;
+}
+
 #ourhighlights_section .blog .mybtn_blog{
     position:absolute;
     top:0;
     left:0;
 }
-#ourhighlights_section .blog :hover .btn_blog{
-    width:100%;
-    height:100%;
-    background:transparent;
-}
+
 
 /* our highlights section end */
 /* Ready to collaborate section start */
 #readytocollaborate_section{
-    width:100%;
+     /*width:100%; */
     height:auto;
-    background:url('../img/footer-bg-min.png') no-repeat;
+    background:url('../img/footer-bg-min.png') fixed no-repeat;
     background-size:100%;
     background-position:center center;
 
+}
+#readytocollaborate_section h2{
+    text-shadow: 4px 4px 5px #1E2DF7;
+    color:#FFFF00;
+    font-size:60px;
+    
+}
+#readytocollaborate_section h4{
+    line-height:35px;
+    letter-spacing:1px;
 }
 /* Ready to collaborate section end */
 /* footer start */
@@ -479,7 +541,10 @@ footer{
     background-color:white;
 }
 h6{
-    padding:10px 0px; 
+    padding:5px 0px; 
+}
+footer h5{
+    margin-bottom:35px;
 }
 /* footer end */
 

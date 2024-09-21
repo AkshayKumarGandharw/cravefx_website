@@ -25,7 +25,7 @@ AOS.init();
    
     loop: true,
     gapCursor:true,
-    spaceBetween:20,
+    spaceBetween:30,
     autoplay: {
         delay :1000,
         disableOnInteraction:false
