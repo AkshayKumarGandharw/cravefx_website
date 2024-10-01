@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home-About Us</title>
+  <link rel="icon" href="./assist/img/cravefx-logo.png">
+  <!-- bootstrap css links -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <!-- font awesome css link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <!-- aos css link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- animate css link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- swiper css link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- css folder link -->
+  <link rel="stylesheet" href="./assist/css/blog.css">
+
+</head>
+
+<body>
+  <!-- navbar section start -->
+  <section id="nav_section">
+    <!-- <img src="./assist/img/Blog_img/live-action-vs-animation.png" alt="" id="background_img" width="100%" height="500px"> -->
+    <!-- bootstrap using navbar--->
+    <nav class="navbar navbar-expand-lg position-fixed z-3 start-0 end-0 top-0">
+      <div class="container-lg">
+        <a class="navbar-brand" href="about.html">
+          <img src="./assist/img/cravefx-logo.png" alt="" height="140px" data-aos="zoom-in">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasright"
+          aria-controls="offcanvasright">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-underline mx-auto mb-2 mb-lg-0 " id="ul_link">
+            <li class="nav-item">
+              <a class="nav-link " href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html" aria-disabled="true">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html" aria-disabled="true">WORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="media.html" aria-disabled="true">MEDIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="showreel.html" aria-disabled="true">SHOWREEL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="blog.html" aria-disabled="true">BLOG</a>
+            </li>
+          </ul>
+          <ul id="btn_ul">
+            <li class="nav-item">
+              <a class="nav-link btn-pink" id="self_btn" href="#" data-aos="fade-up">GET A QUATE</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+   <!-- offcanvas start -->
+   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasright" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Cravefx</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body btn-pink text-white fw-bold ">
+      <div class="dropdown mt-3">
+        <ul class="navbar-nav  nav-underline mb-2 mb-lg-0 text-center" id="ul_link">
+          <li class="nav-item">
+            <a class="nav-link"  href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html" aria-disabled="true">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="work.html" aria-disabled="true">WORK</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="media.html" aria-disabled="true">MEDIA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="showreel.html" aria-disabled="true">SHOWREEL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html" aria-disabled="true">BLOG</a>
+          </li>
+        </ul>
+       <ul id="btn_ul mx-auto " style="list-style:none;">
+         <li>
+            <a class="nav-link btn-pink " id="self_btn" href="#" data-aos="fade-up" >GET A QUATE</a>
+          </li>
+       </ul> 
+      </div>
+    </div>
+  </div>
+   <!-- offcanvas end -->
+    <!-- autoplaying carousel -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <!-- <img src="./assist/img/Blog_img/live-action-vs-animation.png" class="d-block w-100 " alt="..." > -->
+          <div class="carousel-caption  " id="carousel_style_1" data-aos="fade-right" data-aos-duration="1500">
+            <h2 class="myh2_para ">Animation vs Live <br>Action:Which is Best <br> For Your Business?
+            </h2>
+          </div>
+
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <div class="carousel-caption  " id="carousel_style_2">
+            <h2 class="myh2_para2">Animation vs Live <br>Action:Which is Best <br> For Your Business?
+            </h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <img src="./assist/img/image_3.jpg" class="d-block w-100" alt="..." data-aos="zoom-in-down"> -->
+          <div class="carousel-caption" id="carousel_style_3">
+            <h2 class="myh2_para">Blending reality<br> and imagination seamlessly through visual effects.</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- navbar section end -->
+   <!-- pagination sectiion 1 start-->
+    <section id="pagination_1_section">
+      <div class="container" id="page_1">
+        <div class="row row-cols-lg-3" >
+          <div class="col">
+            <div class="comman_property_box">
+              <img src="./assist/img/Blog_img/live-action-vs-animation-400x269.png" alt=" ">
+              <div class="content_all">
+                <span class="py-2">September 7,2024</span>
+                <h2>Animation vs Live Action: Which Is Best For Your Business?</h2>
+                <p>Animation vs Live Action: Which Is Best For Your Business? TLDR: Both animation and live..</p>
+              </div>
+            </div> 
+          </div>
+          <div class="col">
+            <div class="comman_property_box">
+              <img src="./assist/img/Blog_img/experiential-marketing-campaign-esplanade-dancing-with-lights-e1722830109413-400x269.jpg" alt=" ">
+              <div class="content_all">
+                <span class="py-2">September 7,2024</span>
+                <h2>Animation vs Live Action: Which Is Best For Your Business?</h2>
+                <p>Animation vs Live Action: Which Is Best For Your Business? TLDR: Both animation and live..</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="comman_property_box">
+              <img src="./assist/img/Blog_img/why-your-business-needs-animation-400x269.png" alt=" ">
+              <div class="content_all">
+                <span class="py-2">September 7,2024</span>
+                <h2>Animation vs Live Action: Which Is Best For Your Business?</h2>
+                <p>Animation vs Live Action: Which Is Best For Your Business? TLDR: Both animation and live..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-lg-3">
+          <div class="col">
+            <div class="comman_property_box">
+              <img src="./assist/img/Blog_img/live-action-vs-animation-400x269.png" alt=" ">
+              <div class="content_all">
+                <span class="py-2">September 7,2024</span>
+                <h2>Animation vs Live Action: Which Is Best For Your Business?</h2>
+                <p>Animation vs Live Action: Which Is Best For Your Business? TLDR: Both animation and live..</p>
+              </div>
+            </div> 
+          </div>
+          <div class="col">
+            <div class="comman_property_box">
+              <img src="./assist/img/Blog_img/experiential-marketing-campaign-esplanade-dancing-with-lights-e1722830109413-400x269.jpg" alt=" ">
+              <div class="content_all">
+                <span class="py-2">September 7,2024</span>
+                <h2>Animation vs Live Action: Which Is Best For Your Business?</h2>
+                <p>Animation vs Live Action: Which Is Best For Your Business? TLDR: Both animation and live..</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="comman_property_box">
+              <img src="./assist/img/Blog_img/why-your-business-needs-animation-400x269.png" alt=" ">
+              <div class="content_all">
+                <span class="py-2">September 7,2024</span>
+                <h2>Animation vs Live Action: Which Is Best For Your Business?</h2>
+                <p>Animation vs Live Action: Which Is Best For Your Business? TLDR: Both animation and live..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-lg-3">
+          <div class="col">
+            <div class="comman_property_box">
+              <img src="./assist/img/Blog_img/live-action-vs-animation-400x269.png" alt=" ">
+              <div class="content_all">
+                <span class="py-2">September 7,2024</span>
+                <h2>Animation vs Live Action: Which Is Best For Your Business?</h2>
+                <p>Animation vs Live Action: Which Is Best For Your Business? TLDR: Both animation and live..</p>
+              </div>
+            </div> 
+          </div>
+          <div class="col">
+            <div class="comman_property_box">
+              <img src="./assist/img/Blog_img/experiential-marketing-campaign-esplanade-dancing-with-lights-e1722830109413-400x269.jpg" alt=" ">
+              <div class="content_all">
+                <span class="py-2">September 7,2024</span>
+                <h2>Animation vs Live Action: Which Is Best For Your Business?</h2>
+                <p>Animation vs Live Action: Which Is Best For Your Business? TLDR: Both animation and live..</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="comman_property_box">
+              <img src="./assist/img/Blog_img/why-your-business-needs-animation-400x269.png" alt=" ">
+              <div class="content_all">
+                <span class="py-2">September 7,2024</span>
+                <h2>Animation vs Live Action: Which Is Best For Your Business?</h2>
+                <p>Animation vs Live Action: Which Is Best For Your Business? TLDR: Both animation and live..</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+<!-- pagination sectiion 1 start--> 
+
+
+
+<!-- pagination button next / previous start -->
+ <section id="pagination_button_section">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <nav  aria-label="...">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <span class="page-link">Previous</span>
+          </li>
+          <li class="page-item"><a class="page-link" href="page_1">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <span class="page-link">2</span>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+</section>
+
+
+ <!-- pagination button next /previous end-->
+
+
+
+  <!-- footer section start-->
+  
+  <footer>
+    <div class="container py-4">
+      <div class="row py-4 row-cols-lg-4 row-cols-sm-2 row-cols-1">
+        <div class="col">
+          <h5 class="text-pink">MENU</h5>
+          <h6>Services</h6>
+          <h6>Work</h6>
+          <h6>Contact</h6>
+          <h6>Careers</h6>
+        </div>
+        <div class="col">
+          <h5 class="text-blue">CAPABILITIES</h5>
+          <h6>Animation</h6>
+          <h6>Motion Graphics</h6>
+          <h6>Visual Effects</h6>
+          <h6>Interactive</h6>
+        </div>
+        <div class="col">
+          <h5 class="text-lightblue">CASE STUDIES</h5>
+          <h6>The Bicentennial Experience</h6>
+          <h6>Facebook</h6>
+          <h6>National Day Parade</h6>
+          <h6>Ministry of Education</h6>
+        </div>
+        <div class="col">
+          <h5><i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-vimeo-v"></i>&nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-facebook-f"></i>&nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-linkedin-in"></i>
+          </h5>
+          <h6 class="fw-bold">hello@cravefx.com</h6>
+          <h6 class="font-weight-semibold fs-6">© 2024 CraveFX</h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+ 
+  <!-- footer section end -->
+  <!-- Fixed button start -->
+  <div class="myfixed_btn" data-bs-target="#modal-fixed" type="button" class="btn btn-primary" data-bs-toggle="modal">
+    <img src="./assist/img/whatsapp_img.webp" width="100px">
+  </div>
+  <div class="modal fade" id="modal-fixed">
+    <div class="modal-dialog modal-sm fixed-bottom start-50">
+      <div class="modal-content">
+        <button type="button" class="btn-close position-absolute z-3 end-0 top-0 m-3" data-bs-dismiss="modal"
+          aria-label="Close"></button>
+        <div class="modal-body text-center">
+          <img src="./assist/img/whatsapp_QR_img.png" alt="QR_img" width="200px">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fixed button end -->
+
+  <!-- bootstrap js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome js link-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+  <!-- aos js link-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- swiper js link -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- js folder link -->
+  <script src="./assist/js/script.js"></script>
+  <!-- js blog link -->
+   <script src="./assist/js/blog.js"></script>
+
+</body>
+
+</html>

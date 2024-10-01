@@ -17,45 +17,41 @@ window.addEventListener('scroll',()=>{
 
 AOS.init();
 
-// carousel use autoplay
+//   ------------------------------------------
 
-// swiper use for js
- new Swiper('.slider-wrapper', {
+new Swiper('.slider-wrapper', {
     // Optional parameters
-   
+
     loop: true,
-    gapCursor:true,
-    spaceBetween:30,
+    gapCursor: true,
+    spaceBetween: 50,
     autoplay: {
-        delay :1000,
-        disableOnInteraction:false
+        delay: 2000,
+        disableOnInteraction: false
     },
-  
+
     // If we need pagination
     pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-      dynamicBultets:true
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBultets: true
     },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-breakpoints: {
-    0: {
-        slidesPerView:2
-    },
-    576: {
-        slidesPerView:3
-    },
-    768: {
-        slidesPerView:4
-    },
-    1200: {
-        slidesPerView:6
-    }
-}  
 
-  });
+    breakpoints: {
+        // 0: {
+        //     slidesPerView: 2.35
+        // },
+        // 576: {
+        //     slidesPerView: 2.35
+        // }
+        // ,
+        // 1200: {
+        //     slidesPerView: 2.35
+        // }
+    }
+
+});
+
+
+
+

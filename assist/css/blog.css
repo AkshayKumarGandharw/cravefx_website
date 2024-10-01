@@ -1,0 +1,233 @@
+
+/* write the css */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+/* all buttons start*/
+.myfixed_btn{
+    position:fixed;
+    right:0;
+    bottom:0;
+}
+ #whatsapp_Qr{
+    position:fixed;
+    bottom:90px;
+    right:10px;
+    width:200px;
+    height:200px;
+} 
+.btn-pink{
+    background-color:#FF006F;
+}
+.text-pink{
+    color:#FF006F;
+}
+.btn-blue{
+    background-color:#1426F9;
+}
+.text-blue{
+    color:#1426F9;
+}
+.btn-lightblue{
+    background-color:#0B75FF;
+}
+.text-lightblue{
+    color:#0B75FF;
+}
+.text-lightblue{
+    color:#0B75FF;
+}
+.bg-yellow{
+    background-color:#FFFF21;
+}
+#self_btn{
+    border-radius:30px;
+    padding:12px 30px;
+    transition:all 0.5s;   
+}
+#self_btn:hover{
+   // background-color:#0B75FF;
+    transform: scale(1.1);
+    transition:all 0.5s;
+}
+#self_btn2{
+    border-radius:30px;
+    padding:12px 30px;   
+    background-color:white;
+    font-weight:bold;
+    color:#FF006F;
+    border:2px solid #FF006F;
+    transition:all 0.5s;
+}
+#self_btn2:hover{
+
+    color:white;
+    background-color:#FF006F;
+    transition:all 0.5s;
+}
+#self_btn3{
+    border-radius:30px;
+    padding:12px 30px;   
+    background-color:white;
+    font-weight:bold;
+    color:#1426F9;
+    border:2px solid #1426F9;
+    transition:all 0.5s;
+}
+#self_btn3:hover{
+
+    color:white;
+    background-color:#1426F9;
+    transition:all 0.5s;
+}
+#self_btn4{
+    border-radius:30px;
+    padding:12px 40px;
+    transition:all 0.5s;  
+    color:white;
+    font-weight:bold;
+    border:2px solid #1426F9; 
+}
+#self_btn4:hover{
+     background-color:#1426F9;
+     transform: translateY(-5px);
+     transition:all 0.5s;
+ }
+/* button end */
+
+/* navbar start */
+#nav_section .carousel-item{
+    background:url(../img/Blog_img/live-action-vs-animation.png),url(../img/Blog_img/why-your-business-needs-animation.png);
+    background-size:cover;
+    background-position:center center;
+    height:500px;
+}
+
+#nav_section .navbar .container-lg .nav-link {
+    font-weight:700;
+    color:white;
+}
+#nav_section .navbar .container-lg #btn_ul .nav-item .nav-link {
+    list-style:none;
+}
+#ul_link .nav-item .nav-link {
+   margin-right:20px;  
+}
+#nav_section .navbar .container-lg #ul_btn .nav-link:hover{
+     transition:all 1s;
+}
+
+/* #nav_section .carousel-item .w-100 {
+    height:50vh;
+} */
+.my_scroll_up_down{
+   background-color:white;
+   padding:0;
+   left:70px;
+   transition:all 0.4s;
+}
+#nav_section .my_scroll_up_down .navbar-nav .nav-link{
+    color:black;
+ }
+#nav_section .my_scroll_up_down {
+    height:80px;
+}
+#nav_section .my_scroll_up_down img {
+    height:100px;   
+}
+/* navbar end */
+/* navbar background section start*/
+/* text-content in home page */
+.myh2_para2{
+    color:white;
+    width:100%;
+    text-align:left;  
+} 
+.myh2_para{
+    color:white;
+    width:50%;
+    text-align:left;  
+}
+#nav_section h2{
+    font-weight:bold;
+    font-size:48px;   
+}
+#nav_section  p{
+   bottom:20px;
+   font-weight:bold;
+}
+#nav_section a{
+    color:white;
+    font-weight:bold;
+}
+#nav_section  a:hover{
+    color:#FF006F;
+
+ } 
+
+ #nav_section #carousel_style_1 {
+    bottom:120px; 
+    left:80px;
+ }
+ #nav_section #carousel_style_2 {
+    bottom:120px; 
+    left:650px;
+ }
+ #nav_section #carousel_style_3 {
+    bottom:90px; 
+    left:250px;
+ }
+.mycontent{
+    position:absolute;
+    top:45%;
+    left:250px;
+    bottom:50%;
+    font-size:60px;
+    line-height:100px;
+    font-weight:bold;
+    color:white;
+}
+/* navbar background section  end*/
+/* pagination section 1 start */
+#pagination_1_section{
+    //margin:0px 0px 0px 30px;
+}
+#pagination_1_section .comman_property_box{
+    width:355px;
+    height:auto;
+    box-shadow:3px 3px 4px gray;
+    margin:40px 0px;
+}
+#pagination_1_section .comman_property_box img{
+    width:100%;
+}
+#pagination_1_section .comman_property_box .content_all{
+    padding:20px;
+}
+/* pagination section 1 end */
+/* pagination button next/previous start  */
+#pagination_button_section{
+
+}
+#pagination_button_section nav{
+    text-align:center;
+     margin-left:450px;
+
+ }
+/* pagination button next/previous end  */
+
+/* footer start */
+footer{
+    width:100%;
+    height:auto;
+    background-color:white;
+}
+h6{
+    padding:5px 0px; 
+}
+footer h5{
+    margin-bottom:35px;
+}
+/* footer end */

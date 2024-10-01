@@ -1,0 +1,303 @@
+
+/* write the css */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+/* all buttons start*/
+.myfixed_btn{
+    position:fixed;
+    right:0;
+    bottom:0;
+}
+ #whatsapp_Qr{
+    position:fixed;
+    bottom:90px;
+    right:10px;
+    width:200px;
+    height:200px;
+} 
+.btn-pink{
+    background-color:#FF006F;
+}
+.text-pink{
+    color:#FF006F;
+}
+.btn-blue{
+    background-color:#1426F9;
+}
+.text-blue{
+    color:#1426F9;
+}
+.btn-lightblue{
+    background-color:#0B75FF;
+}
+.text-lightblue{
+    color:#0B75FF;
+}
+.text-lightblue{
+    color:#0B75FF;
+}
+.bg-yellow{
+    background-color:#FFFF21;
+}
+#self_btn{
+    border-radius:30px;
+    padding:12px 30px;
+    transition:all 0.5s;   
+}
+#self_btn:hover{
+   // background-color:#0B75FF;
+    transform: scale(1.1);
+    transition:all 0.5s;
+}
+#self_btn2{
+    border-radius:30px;
+    padding:12px 30px;   
+    background-color:white;
+    font-weight:bold;
+    color:#FF006F;
+    border:2px solid #FF006F;
+    transition:all 0.5s;
+}
+#self_btn2:hover{
+
+    color:white;
+    background-color:#FF006F;
+    transition:all 0.5s;
+}
+#self_btn3{
+    border-radius:30px;
+    padding:12px 30px;   
+    background-color:white;
+    font-weight:bold;
+    color:#1426F9;
+    border:2px solid #1426F9;
+    transition:all 0.5s;
+}
+#self_btn3:hover{
+
+    color:white;
+    background-color:#1426F9;
+    transition:all 0.5s;
+}
+#self_btn4{
+    border-radius:30px;
+    padding:12px 40px;
+    transition:all 0.5s;  
+    color:white;
+    font-weight:bold;
+    border:2px solid #1426F9; 
+}
+#self_btn4:hover{
+     background-color:#1426F9;
+     transform: translateY(-5px);
+     transition:all 0.5s;
+ }
+/* button end */
+
+/* navbar start */
+
+#nav_section .navbar .container-lg .nav-link {
+    font-weight:700;
+    color:white;
+}
+#nav_section .navbar .container-lg #btn_ul .nav-item .nav-link {
+    list-style:none;
+}
+#ul_link .nav-item .nav-link {
+   margin-right:20px;  
+}
+#nav_section .navbar .container-lg #ul_btn .nav-link:hover{
+     transition:all 1s;
+}
+
+#nav_section .carousel-item .w-100 {
+    height:100vh;
+}
+.my_scroll_up_down{
+   background-color:white;
+   padding:0;
+   left:70px;
+   transition:all 0.4s;
+}
+#nav_section .my_scroll_up_down .navbar-nav .nav-link{
+    color:black;
+ }
+#nav_section .my_scroll_up_down {
+    height:80px;
+}
+#nav_section .my_scroll_up_down img {
+    height:100px;   
+}
+/* navbar end */
+/* navbar background section start*/
+
+.mycontent{
+    position:absolute;
+    top:45%;
+    left:350px;
+    bottom:50%;
+    font-size:60px;
+    font-weight:bold;
+    color:white;
+}
+
+#nav_section{
+   width:100%;
+   height:800px;
+   background-color:yellow;
+   background-image:url(../img/Work_img/latest_work_background_img_2.png),url(../img/Work_img/latest_work_background_img_3.png);
+   background-size:-130%;
+   background-position:center right;
+   background-position: 50%  0%,100% 0%;
+
+}
+#nav_section .content_div h2{
+    font-size:85px;
+    padding-top:360px;
+    padding-left:50px;
+}
+#nav_section #ul_link_2{
+    padding-top:560px;
+
+}
+#nav_section .navbar-nav .nav-link{
+    color:#0B75FF;
+    font-weight:bold;
+    font-size:18px;
+ }
+
+ .comman_property_box_1{
+    width:100%;
+    height:200px;
+  //  border:2px solid blue;
+    overflow:hidden;
+    border-radius:10px;
+ }
+ #nav_section .comman_property_box_1 img{
+
+    transform:scale(1);  
+    border-radius:10px;
+    transition:all 1s; 
+    
+  }
+
+  #nav_section  .comman_property_box_1:hover img{
+    transform:scale(1.1);
+    transition:all 1s; 
+ }
+ #nav_section .comman_property_box_1 img{
+    
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    border-radius:10px;
+    
+}
+ #nav_section  .comman_property_box_1 .myLw_content{
+    position:absolute;
+    left:0;
+    bottom:-180px;
+    padding: 70px 40px 90px 36px;
+    border-radius:10px;
+    transition:all 2s;
+ }
+ 
+ #nav_section .comman_property_box_1 .myLw_content:hover{
+    color:white;
+    background:linear-gradient(rgba(5,5,5,0.5),rgba(0,0,0,0.5));
+    transition:all 2s;
+  }
+ 
+
+/* navbar background section  end*/
+ /* work box section start */
+ #work_box_section{
+    width:100%;
+    height:auto;
+
+ }
+ #work_box_section .comman_property_box_1 img{
+
+    transform:scale(1);  
+    border-radius:10px;
+    transition:all 1s; 
+    
+  }
+
+  #work_box_section  .comman_property_box_1:hover img{
+    transform:scale(1.1);
+    transition:all 1s; 
+ }
+ #work_box_section .comman_property_box_1 img{
+    
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    border-radius:10px;
+    
+}
+ #work_box_section  .comman_property_box_1 .myLw_content{
+    position:absolute;
+    left:0;
+    bottom:-180px;
+    padding: 70px 40px 90px 36px;
+    border-radius:10px;
+    transition:all 2s;
+ }
+ 
+ #work_box_section .comman_property_box_1 .myLw_content:hover{
+    color:white;
+    background:linear-gradient(rgba(5,5,5,0.5),rgba(0,0,0,0.5));
+    transition:all 2s;
+  }
+
+ .comman_property_box_2{
+    width:100%;
+    height:650px;
+    border:2px solid blue;
+    border-radius:20px;
+ }
+ .comman_property_box_3{
+    width:100%;
+    height:350px;
+    border:2px solid blue;
+    border-radius:20px;
+ }
+ /* work box section end */
+/* footer start */
+footer{
+    width:100%;
+    height:auto;
+    background-color:white;
+}
+h6{
+    padding:5px 0px; 
+}
+footer h5{
+    margin-bottom:35px;
+}
+/* footer end */
+
+/* RESPONSIVE PAGE  */
+/* mobile screen  start */
+@media screen and (max-width:576px){
+    
+    #nav_section #container_fluid_1 .comman_property_box_1{
+       
+        margin:20px 0px;
+     }
+    #work_box_section .container-fluid .row .col{
+        margin-top:20px;
+        
+    }
+    #nav_section .content_div h2{
+        font-size:55px;
+      //  padding-top:360px;
+//padding-left:50px;
+    }
+}
+/* mobile screen  end */
+

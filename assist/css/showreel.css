@@ -1,0 +1,212 @@
+
+/* write the css */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+/* all buttons start*/
+.myfixed_btn{
+    position:fixed;
+    right:0;
+    bottom:0;
+}
+ #whatsapp_Qr{
+    position:fixed;
+    bottom:90px;
+    right:10px;
+    width:200px;
+    height:200px;
+} 
+.btn-pink{
+    background-color:#FF006F;
+}
+.text-pink{
+    color:#FF006F;
+}
+.btn-blue{
+    background-color:#1426F9;
+}
+.text-blue{
+    color:#1426F9;
+}
+.btn-lightblue{
+    background-color:#0B75FF;
+}
+.text-lightblue{
+    color:#0B75FF;
+}
+.text-lightblue{
+    color:#0B75FF;
+}
+.bg-yellow{
+    background-color:#FFFF21;
+}
+#self_btn{
+    border-radius:30px;
+    padding:12px 30px;
+    transition:all 0.5s;   
+}
+#self_btn:hover{
+   // background-color:#0B75FF;
+    transform: scale(1.1);
+    transition:all 0.5s;
+}
+#self_btn2{
+    border-radius:30px;
+    padding:12px 30px;   
+    background-color:white;
+    font-weight:bold;
+    color:#FF006F;
+    border:2px solid #FF006F;
+    transition:all 0.5s;
+}
+#self_btn2:hover{
+
+    color:white;
+    background-color:#FF006F;
+    transition:all 0.5s;
+}
+#self_btn3{
+    border-radius:30px;
+    padding:12px 30px;   
+    background-color:white;
+    font-weight:bold;
+    color:#1426F9;
+    border:2px solid #1426F9;
+    transition:all 0.5s;
+}
+#self_btn3:hover{
+
+    color:white;
+    background-color:#1426F9;
+    transition:all 0.5s;
+}
+#self_btn4{
+    border-radius:30px;
+    padding:12px 40px;
+    transition:all 0.5s;  
+    color:white;
+    font-weight:bold;
+    border:2px solid #1426F9; 
+}
+#self_btn4:hover{
+     background-color:#1426F9;
+     transform: translateY(-5px);
+     transition:all 0.5s;
+ }
+/* button end */
+
+/* navbar start */
+
+#nav_section .navbar .container-lg .nav-link {
+    font-weight:700;
+    color:white;
+}
+#nav_section .navbar .container-lg #btn_ul .nav-item .nav-link {
+    list-style:none;
+}
+#ul_link .nav-item .nav-link {
+   margin-right:20px;  
+}
+#nav_section .navbar .container-lg #ul_btn .nav-link:hover{
+     transition:all 1s;
+}
+
+#nav_section .carousel-item .w-100 {
+    height:100vh;
+}
+.my_scroll_up_down{
+   background-color:white;
+   padding:0;
+   left:70px;
+   transition:all 0.4s;
+}
+#nav_section .my_scroll_up_down .navbar-nav .nav-link{
+    color:black;
+ }
+#nav_section .my_scroll_up_down {
+    height:80px;
+}
+#nav_section .my_scroll_up_down img {
+    height:100px;   
+}
+/* navbar end */
+/* navbar background section start*/
+#Healthcare_gif_imge1{
+    position:absolute;
+    top:130px;
+    left:0px;
+    background-color:white;
+    border-radius:20px;
+   
+}
+#Healthcare_gif_imge1 img{
+    width:400px;
+    height:300px;
+    border-radius:20px;
+}
+#Business_gif_imge2{
+    position:absolute;
+    //top:400px;
+    bottom:0px;
+    left:0px;
+    border-radius:10px;
+    background-color:white;
+}
+#Business_gif_imge2 img{
+    width:350px;
+    height:230px;
+    bottom:0px;
+    border-radius:10px;
+}
+#Corporate_gif_imge3{
+    position:absolute;
+    top:60px;
+    right:20px;
+    border-radius:20px;
+}
+#Corporate_gif_imge3 img{
+    width:480px;
+    height:250px;
+    border-radius:20px;
+}
+#Animate_gif_imge4{
+    position:absolute;
+    top:298px;
+    right:0px;
+    border-radius:10px;
+}
+#Animate_gif_imge4 img{
+    width:360px;
+    height:290px;
+    border-radius:10px;
+}
+#video_section{
+    width:100%;
+    height:auto;
+}
+.mycontent{
+    position:absolute;
+    top:45%;
+    left:350px;
+    bottom:50%;
+    font-size:60px;
+    font-weight:bold;
+    color:white;
+}
+/* navbar background section  end*/
+
+/* footer start */
+footer{
+    width:100%;
+    height:auto;
+    background-color:white;
+}
+h6{
+    padding:5px 0px; 
+}
+footer h5{
+    margin-bottom:35px;
+}
+/* footer end */

@@ -1,0 +1,528 @@
+
+/* write the css */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+/* all buttons start*/
+.myfixed_btn{
+    position:fixed;
+    right:0;
+    bottom:0;
+}
+ #whatsapp_Qr{
+    position:fixed;
+    bottom:90px;
+    right:10px;
+    width:200px;
+    height:200px;
+} 
+.btn-pink{
+    background-color:#FF006F;
+}
+.text-pink{
+    color:#FF006F;
+}
+.btn-blue{
+    background-color:#1426F9;
+}
+.text-blue{
+    color:#1426F9;
+}
+.btn-lightblue{
+    background-color:#0B75FF;
+}
+.text-lightblue{
+    color:#0B75FF;
+}
+.text-lightblue{
+    color:#0B75FF;
+}
+.bg-yellow{
+    background-color:#FFFF21;
+}
+#self_btn{
+    border-radius:30px;
+    padding:12px 30px;
+    transition:all 0.5s;   
+}
+#self_btn:hover{
+   // background-color:#0B75FF;
+    transform: scale(1.1);
+    transition:all 0.5s;
+}
+#self_btn2{
+    border-radius:30px;
+    padding:12px 30px;   
+    background-color:white;
+    font-weight:bold;
+    color:#FF006F;
+    border:2px solid #FF006F;
+    transition:all 0.5s;
+}
+#self_btn2:hover{
+
+    color:white;
+    background-color:#FF006F;
+    transition:all 0.5s;
+}
+#self_btn3{
+    border-radius:30px;
+    padding:12px 30px;   
+    background-color:white;
+    font-weight:bold;
+    color:#1426F9;
+    border:2px solid #1426F9;
+    transition:all 0.5s;
+}
+#self_btn3:hover{
+
+    color:white;
+    background-color:#1426F9;
+    transition:all 0.5s;
+}
+#self_btn4{
+    border-radius:30px;
+    padding:12px 40px;
+    transition:all 0.5s;  
+    color:white;
+    font-weight:bold;
+    border:2px solid #1426F9; 
+}
+#self_btn4:hover{
+     background-color:#1426F9;
+     transform: translateY(-5px);
+     transition:all 0.5s;
+ }
+/* button end */
+
+/* navbar start */
+#nav_section{
+    width:100%;
+    height:600px;
+    background:url(../img/About_img/background_img.jpg);
+    background-size:cover;
+    background-position:center center;
+    
+}
+#nav_section #background_img{
+    height:auto;
+    padding:0px;
+}
+#nav_section .navbar .container-lg .nav-link {
+    font-weight:700;
+    color:white;
+}
+#nav_section .navbar .container-lg #btn_ul .nav-item .nav-link {
+    list-style:none;
+}
+#ul_link .nav-item .nav-link {
+   margin-right:20px;  
+}
+#nav_section .navbar .container-lg #ul_btn .nav-link:hover{
+     transition:all 1s;
+}
+
+#nav_section .carousel-item .w-100 {
+    height:100vh;
+}
+.my_scroll_up_down{
+   background-color:white;
+   padding:0;
+   left:70px;
+   transition:all 0.4s;
+}
+#nav_section .my_scroll_up_down .navbar-nav .nav-link{
+    color:black;
+ }
+#nav_section .my_scroll_up_down {
+    height:80px;
+}
+#nav_section .my_scroll_up_down img {
+    height:100px;   
+}
+/* navbar end */
+/* navbar background section start*/
+#Healthcare_gif_imge1{
+    position:absolute;
+    top:130px;
+    left:0px;
+    border-radius:20px;
+   
+}
+#Healthcare_gif_imge1 img{
+    width:400px;
+    height:240px;
+    border-radius:20px;
+}
+#Business_gif_imge2{
+    position:absolute;
+    top:370px;
+    left:0px;
+    border-radius:10px;
+}
+#Business_gif_imge2 img{
+    width:350px;
+    height:230px;
+    bottom:0px;
+    border-radius:10px;
+}
+#Corporate_gif_imge3{
+    position:absolute;
+    top:60px;
+    right:20px;
+    border-radius:20px;
+}
+#Corporate_gif_imge3 img{
+    width:480px;
+    height:250px;
+    border-radius:20px;
+}
+#Animate_gif_imge4{
+    position:absolute;
+    top:298px;
+    right:0px;
+    border-radius:10px;
+}
+#Animate_gif_imge4 img{
+    width:360px;
+    height:290px;
+    border-radius:10px;
+}
+#video_section{
+    width:100%;
+    height:auto;
+}
+.mycontent{
+    position:absolute;
+    top:45%;
+    left:350px;
+    bottom:50%;
+    font-size:60px;
+    font-weight:bold;
+    color:white;
+}
+/* navbar background section  end*/
+/* video section start */
+#video_section{
+    width:100%;
+    height:auto;
+}
+
+/* video section end */
+
+/* About section start */
+#About_section{
+    width:100%;
+    height:auto;
+    position:relative;
+}
+#About_section .about_img{
+    //position:absolute;
+    background-color:black;
+    width:250px;
+    height:300px;
+    right:200px;
+    bottom:100px;
+    top:100px;
+    border-radius:20px;
+}
+ #About_section .about_img .content_div{
+    position:absolute;
+    left:100px;
+    top:200px;
+
+} 
+/* #About_section .Our_goal_img{
+    position:absolute;
+    background-color:black;
+    width:250px;
+    height:300px;
+    left:100px;
+    margin-bottom:100px;
+    margin-top:10px;
+    border-radius:20px;
+} */
+#About_section .Our_goal_img{
+   
+    background-color:black;
+    width:250px;
+    height:300px;
+    left:100px;
+    margin-bottom:50px;
+    margin-top:10px;
+    border-radius:20px;
+}
+
+#About_section .aboutcontent_1{
+    position:absolute;
+    top:150px;
+}
+#About_section .aboutcontent2{
+    position:absolute;
+    top:350px;
+}
+
+/* About section end */
+/* team section start */
+#team_section{
+    width:100%;
+    height:700px;
+    background:url(../img/About_img/team_background_img.jpg);
+    background-size:cover;
+    position:relative;
+}
+ #team_section .container .team_head{
+   position:absolute;
+    left:40%;
+    right:35%;
+    top:50%;
+    bottom:50%;
+    font-size:65px;
+    font-weight:bold;
+    color:white;
+    text-shadow:3px 3px 5px #1426F9;
+} 
+/* team section end */
+
+/* artist section start */
+#artist_section{
+    background-color:#1F80FB;
+    width:100%;
+    height:auto;
+}
+/* artist section end */
+/* media-career section start */
+#media_career_section{
+
+    width:100%;
+    height:auto;
+    background:url(../img/About_img/footer-bg-min.png);
+    background-size:cover;
+}
+.box{
+    width:100%;
+    height:250px;
+    margin-top:60px;
+ }
+#media_career_section #boxid1{
+    border:2px solid #1F80FB;
+    transition:all 2s;
+}
+#media_career_section #boxid2{
+    border:2px solid #F2EB11;
+    transition:all 2s;
+}
+#media_career_section h2{
+    font-size:55px;
+    font-weight:bold;
+    margin:130px 50px 60px 40px;
+}
+#media_career_section h2 #arrow_icon_1{
+    margin-left:190px;
+    
+}
+#media_career_section #boxid1:hover{
+    
+    background:linear-gradient(rgba(62, 63, 230, 0.9),rgba(62, 63, 230, 0.9)),url(../img/About_img/media_img.jpg);
+    background-size:cover;
+    transition:all 2s;
+}
+#media_career_section #boxid2:hover{
+
+    background:linear-gradient(rgba(242, 235, 17, 0.9),rgba(242, 235, 17, 0.9)),url(../img/About_img/career_img.jpg);
+    background-size:cover;
+    transition:all 2s;
+}
+
+.ready_to_collaborate{
+    font-size:55px;
+    color:#F2EB11;
+    text-shadow:4px 4px 5px #1F80FB;
+
+}
+.btn_div{
+     width:100%;
+     height:auto;
+}
+.btn-margin{
+    padding:5px 15px;
+    margin:0px 200px 100px 200px;
+    text-align:center;
+}
+/* media-career section end */
+/* footer start */
+footer{
+    width:100%;
+    height:auto;
+    background-color:white;
+}
+h6{
+    padding:5px 0px; 
+}
+footer h5{
+    margin-bottom:35px;
+}
+/* footer end */
+/* Responsive page start*/
+@media screen and (max-width:992px){
+    
+    #Healthcare_gif_imge1{
+        top:150px;
+        left:0px;
+    }
+    #Healthcare_gif_imge1 img{
+        width:350px;
+        height:250px;  
+    }
+    #Business_gif_imge2{
+        top:400px;
+        left:0px;
+        height:200px;
+       
+    }
+    #Business_gif_imge2 img{
+        width:350px;
+        height:200px;
+    }
+    #Corporate_gif_imge3{  
+        top:120px;
+        right:20px;
+    }
+    #Corporate_gif_imge3 img{
+        width:350px;
+        height:250px; 
+    }
+    #Animate_gif_imge4{
+        top:350px;
+        right:0px;
+    }
+    #Animate_gif_imge4 img{
+        width:300px;
+        height:200px;
+    }
+    .mycontent{
+        top:50%;
+        left:150px;
+        bottom:80%;
+        font-size:50px;
+        font-weight:bold;
+        color:white;
+    }
+    #media_career_section h2 #arrow_icon_1{
+        margin-left:0px ;
+        
+    }
+    #media_career_section h2{
+        font-size:50px;
+       
+    }
+     
+}
+
+@media screen and (max-width:768px){
+    
+
+    #Healthcare_gif_imge1{
+        top:150px;
+        left:0px;
+    }
+    #Healthcare_gif_imge1 img{
+        width:250px;
+        height:250px;  
+    }
+    #Business_gif_imge2{
+        top:400px;
+        left:0px;
+        height:200px;
+       
+    }
+    #Business_gif_imge2 img{
+        width:250px;
+        height:200px;
+    }
+    #Corporate_gif_imge3{  
+        top:120px;
+        right:20px;
+    }
+    #Corporate_gif_imge3 img{
+        width:250px;
+        height:250px; 
+    }
+    #Animate_gif_imge4{
+        top:350px;
+        right:0px;
+    }
+    #Animate_gif_imge4 img{
+        width:200px;
+        height:200px;
+    }
+    .mycontent{
+        top:50%;
+        left:100px;
+        bottom:80%;
+        font-size:40px;
+        font-weight:bold;
+        color:white;
+    }
+    #media_career_section h2 #arrow_icon_1{
+        margin-left:90px;
+        
+    }
+
+}
+
+@media screen and (max-width:576px){
+   
+    #nav_section #background_img{
+        height:600px;
+       
+    }
+    #Healthcare_gif_imge1{
+        top:150px;
+        left:0px;
+    }
+    #Healthcare_gif_imge1 img{
+        width:200px;
+        height:200px;  
+    }
+    #Business_gif_imge2{
+        top:360px;
+        left:0px;
+    }
+    #Business_gif_imge2 img{
+        width:150px;
+        height:243px;
+    }
+    #Corporate_gif_imge3{  
+        top:120px;
+        right:20px;
+    }
+    #Corporate_gif_imge3 img{
+        width:200px;
+        height:250px; 
+    }
+    #Animate_gif_imge4{
+        top:350px;
+        right:0px;
+    }
+    #Animate_gif_imge4 img{
+        width:150px;
+        height:200px;
+    }
+    .mycontent{
+        top:50%;
+        left:60px;
+        bottom:80%;
+        font-size:30px;
+        font-weight:bold;
+        color:white;
+    }
+    #media_career_section h2 #arrow_icon_1{
+        margin-left:90px;
+        
+    }
+
+}
+/* Responsive page end*/

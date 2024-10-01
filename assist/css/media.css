@@ -1,0 +1,493 @@
+
+/* write the css */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+/* all buttons start*/
+.myfixed_btn{
+    position:fixed;
+    right:0;
+    bottom:0;
+}
+ #whatsapp_Qr{
+    position:fixed;
+    bottom:90px;
+    right:10px;
+    width:200px;
+    height:200px;
+} 
+.btn-pink{
+    background-color:#FF006F;
+}
+.text-pink{
+    color:#FF006F;
+}
+.btn-blue{
+    background-color:#1426F9;
+}
+.bg-blue{
+    background-color:#1426F9;
+}
+.text-blue{
+    color:#1426F9;
+}
+.btn-lightblue{
+    background-color:#0B75FF;
+}
+.bg-lightblue{
+    background-color:#0B75FF;
+}
+.text-lightblue{
+    color:#0B75FF;
+}
+.text-lightblue{
+    color:#0B75FF;
+}
+.bg-yellow{
+    background-color:#FFFF21;
+}
+#self_btn{
+    border-radius:30px;
+    padding:12px 30px;
+    transition:all 0.5s;   
+}
+#self_btn:hover{
+   // background-color:#0B75FF;
+    transform: scale(1.1);
+    transition:all 0.5s;
+}
+#self_btn2{
+    border-radius:30px;
+    padding:12px 30px;   
+    background-color:white;
+    font-weight:bold;
+    color:#FF006F;
+    border:2px solid #FF006F;
+    transition:all 0.5s;
+}
+#self_btn2:hover{
+
+    color:white;
+    background-color:#FF006F;
+    transition:all 0.5s;
+}
+#self_btn3{
+    border-radius:30px;
+    padding:12px 30px;   
+    background-color:white;
+    font-weight:bold;
+    color:#1426F9;
+    border:2px solid #1426F9;
+    transition:all 0.5s;
+}
+#self_btn3:hover{
+
+    color:white;
+    background-color:#1426F9;
+    transition:all 0.5s;
+}
+#self_btn4{
+    border-radius:30px;
+    padding:12px 40px;
+    transition:all 0.5s;  
+    color:white;
+    font-weight:bold;
+    border:2px solid #1426F9; 
+}
+#self_btn4:hover{
+     background-color:#1426F9;
+     transform: translateY(-5px);
+     transition:all 0.5s;
+ }
+/* button end */
+
+/* navbar start */
+
+#nav_section .navbar .container-lg .nav-link {
+    font-weight:700;
+    color:white;
+}
+#nav_section .navbar .container-lg #btn_ul .nav-item .nav-link {
+    list-style:none;
+}
+#ul_link .nav-item .nav-link {
+   margin-right:20px;  
+}
+#nav_section .navbar .container-lg #ul_btn .nav-link:hover{
+     transition:all 1s;
+}
+
+#nav_section .carousel-item .w-100 {
+    height:100vh;
+}
+.my_scroll_up_down{
+   background-color:white;
+   padding:0;
+   left:70px;
+   transition:all 0.4s;
+}
+#nav_section .my_scroll_up_down .navbar-nav .nav-link{
+    color:black;
+ }
+#nav_section .my_scroll_up_down {
+    height:80px;
+}
+#nav_section .my_scroll_up_down img {
+    height:100px;   
+}
+/* navbar end */
+/* navbar background section start*/
+#nav_section{
+
+   position:relative;
+}
+#nav_section .word_box{
+    position:absolute;
+    left:100px;
+    top:300px;
+    color:white;
+}
+#nav_section .word_box h2{
+    font-size:55px;
+    color:white;
+    font-weight:bold;
+}
+/* navbar background section  end*/
+/* Award and partership section start */
+#award_parterner_section{
+    width:100%;
+    height:auto;
+    background-color:#FF0A6B;
+    
+}
+.comman_padding{
+    padding:0px 100px;
+}
+.award_box{
+    width:100%;
+    height:500px;
+    padding:40px 30px 60px 30px;
+    border-radius:20px;
+   color:white;
+}
+.exta_propety{
+    positon:absolute;
+    top:0px;   
+}
+#award_parterner_section h3{
+    color:white;
+    font-size:50px;
+    font-weight:bold;
+    margin:200px 20px auto 20px;
+}
+/*Award and partership section end*/
+/********************Award and partership swiper start *************************/
+#award_parterner_section #swiper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:100px 0px 0px 0px;
+    padding-bottom:100px;
+}
+#award_parterner_section #swiper .slider-wrapper{
+    overflow:hidden;
+    max-width:1350px; 
+   
+}
+#award_parterner_section #swiper .slider-wrapper .card-list .card-item{
+    text-align:center;
+    box-shadow:0px 5px 15px gray;
+    border-radius:20px;
+    background-color:white;  
+    height:450px; 
+    width:500px;
+    margin-bottom:90px;
+    
+}
+ #award_parterner_section #swiper .slider-wrapper .card-list .card-item img{
+    width:100%;
+    height:100%;
+    border-radius:20px;
+} 
+#award_parterner_section #swiper .slider-wrapper .swiper-pagination-bullet{
+    background-color:#bdc3c7 ;
+    height:16px;
+    width:16px;
+    opacity:1;
+    transition:all 0.6s;
+}
+#award_parterner_section #swiper .slider-wrapper .swiper-pagination-bullet-active{
+    background-color:#566573;
+    height:18px;
+    width:18px;
+}
+
+#award_parterner_section #swiper .slider-wrapper .swiper-button-prev{
+    color:yellow;
+    display:none;
+}
+#award_parterner_section #swiper .slider-wrapper .swiper-button-next{
+   
+    color:yellow;
+}
+#award_parterner_section #swiper .slider-wrapper .swiper-button-next:hover{
+    background-color:blue;
+   width:35px;
+   height:35px;
+   border-radius:50%;
+   opacity:1;
+   transition:all 0.3s;
+}
+
+/* Award and partership swiper end */
+/* Media section start */
+#media_section{
+    width:100%;
+    height:auto;
+    background-color:#0B75FF;
+}
+#media_section h2{
+    font-size:45px;
+    padding-top:100px;
+    font-weight:bold;
+}
+#media_section .channel{
+    height:400px;
+    border-radius:20px;
+    padding:30px 50px;
+    border:2px solid white;
+    color:white;
+}
+#media_section .channel_video{
+    height:400px;
+    border-radius:20px;
+    border:2px solid white;
+    margin-top:165px;
+   
+}
+#media_section .img_content{
+    background-color:#FF006F;
+    color:white;
+    margin:40px 0px;
+    border-radius:20px;
+}
+#media_section .img_content img{
+    width:100%;
+    height:250px;
+
+}
+#media_section .img_content button{
+    margin:30px 20px 20px 20px;
+}
+#media_section .img_content button a{
+    text-decoration-color:orange;
+    text-decoration:bold;
+    
+}
+/* Media section end */
+
+
+
+/* Our Clients section start */
+#our_client_section{
+
+    width:100%;
+    height:auto;
+    background-color:yellow;
+    padding-bottom:200px;
+}
+#our_client_section h2{
+    font-size:65px;
+}
+/* swiper start */
+  
+#our_client_section #swiper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#our_client_section #swiper .slider-wrapper{
+    overflow:hidden;
+    max-width:1350px; 
+}
+#our_client_section #swiper .slider-wrapper .card-list .card-item{
+    text-align:center;
+    border-radius:20px;
+   background-color:yellow;  
+  //  margin-bottom:190px;
+}
+#our_client_section #swiper .slider-wrapper .card-list .card-item .inner_box{
+    height:130px;
+    float:right;
+    padding:0px 20px;    
+}
+#our_client_section #swiper .slider-wrapper .card-list .card-item .inner_box img{
+    width:100%;
+    height:100px;
+    margin:30px 0px;
+    filter:grayscale(100%);
+    transition: all 0.4s;
+}
+#our_client_section #swiper .slider-wrapper .card-list .card-item img:hover{
+    filter:grayscale(0%); 
+}
+
+#our_client_section #swiper .slider-wrapper .swiper-pagination-bullet{
+    background-color:#bdc3c7 ;
+    height:16px;
+    width:16px;
+    opacity:1;
+    transition:all 0.6s;
+}
+#our_client_section #swiper .slider-wrapper .swiper-pagination-bullet-active{
+    background-color:#566573;
+    height:18px;
+    width:18px;
+}
+
+#our_client_section #swiper .slider-wrapper .swiper-button-prev{
+    color:yellow;
+}
+#our_client_section #swiper .slider-wrapper .swiper-button-next{
+   
+    color:yellow;
+}
+#our_client_section #swiper .slider-wrapper .swiper-button-next:hover{
+    background-color:blue;
+   width:35px;
+   height:35px;
+   border-radius:50%;
+   opacity:1;
+   transition:all 0.3s;
+
+}
+
+/* swiper end */
+
+/* Our Clients section end */
+
+/* service-showreel section start */
+#services_showreel_section{
+
+    width:100%;
+    height:auto;
+    background:url(../img/About_img/footer-bg-min.png);
+    background-size:cover;
+}
+.box{
+    width:100%;
+    height:250px;
+    margin-top:60px;
+ }
+#services_showreel_section #boxid1{
+    border:2px solid #1F80FB;
+    transition:all 2s;
+}
+#services_showreel_section #boxid2{
+    border:2px solid #F2EB11;
+    transition:all 2s;
+}
+#services_showreel_section h2{
+    font-size:55px;
+    font-weight:bold;
+    margin:130px 50px 60px 40px;
+}
+ #services_showreel_section h2 #arrow_icon_1{
+    margin-left:50px;
+    
+} 
+#services_showreel_section #boxid1:hover{
+    
+    background:linear-gradient(rgba(62, 63, 230, 0.9),rgba(62, 63, 230, 0.8)),url(../img/Media_img/footer-services-hover.jpg);
+    background-size:cover;
+    transition:all 2s;
+}
+#services_showreel_section #boxid2:hover{
+
+    background:linear-gradient(rgba(242, 235, 17, 0.9),rgba(242, 235, 17, 0.8)),url(../img/Media_img/footer-showreel-hover-1.jpg);
+    background-size:cover;
+    transition:all 2s;
+}
+
+.ready_to_collaborate{
+    font-size:55px;
+    color:#F2EB11;
+    text-shadow:4px 4px 5px #1F80FB;
+    margin:140px auto 50px auto;
+
+}
+.btn_div{
+     width:100%;
+     height:auto;
+}
+.btn-margin{
+    padding:5px 15px;
+    margin:0px 200px 100px 200px;
+    text-align:center;
+}
+/* service-showreel section end */
+
+
+/* footer start */
+footer{
+    width:100%;
+    height:auto;
+    background-color:white;
+}
+h6{
+    padding:5px 0px; 
+}
+footer h5{
+    margin-bottom:35px;
+}
+/* footer end */
+/* RESPONSIVE PAGE START*/
+@media sceen and (max-width:992px){
+   
+
+    #media_career_section h2 #arrow_icon_1{
+        margin-left:0px ;
+        
+    }
+    #media_career_section h2{
+        font-size:50px;
+       
+    }
+ 
+
+}
+@media sceen and (max-width:768px){
+    
+    #media_career_section h2 #arrow_icon_1{
+        margin-left:90px;
+        
+    }
+
+}
+@media sceen and (max-width:576px){
+   
+    #nav_section .word_box{
+      
+        left:0px;
+        top:100px;
+        color:white;
+        background-color:black;
+    }
+    #nav_section .word_box  h2{
+        font-size:55px;
+        color:white;
+        font-weight:bold;
+        background-color:black;
+        
+    }
+    #award_parterner_section h3{
+        color:white;
+        font-size:30px;
+        font-weight:bold;
+        margin:50px 20px auto 20px;
+    }
+
+}
+/* RESPONSIVE PAGE END*/

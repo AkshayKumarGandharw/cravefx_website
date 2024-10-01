@@ -40,22 +40,22 @@
               <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-underline mx-auto mb-2 mb-lg-0 " id="ul_link">
                     <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                          <a class="nav-link active" aria-current="page" href="about.html">ABOUT</a>
                     </li>
                      <li class="nav-item">
-                         <a class="nav-link" href="#" aria-disabled="true">SERVICES</a>
+                         <a class="nav-link" href="services.html" aria-disabled="true">SERVICES</a>
                      </li>
                      <li class="nav-item">
-                          <a class="nav-link" href="#" aria-disabled="true">WORK</a>
+                          <a class="nav-link" href="work.html" aria-disabled="true">WORK</a>
                      </li>
                      <li class="nav-item">
-                          <a class="nav-link" href="#" aria-disabled="true">MEDIA</a>
+                          <a class="nav-link" href="media.html" aria-disabled="true">MEDIA</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#" aria-disabled="true">SHOWREEL</a>
+                          <a class="nav-link" href="showreel.html" aria-disabled="true">SHOWREEL</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#" aria-disabled="true">BLOG</a>
+                          <a class="nav-link" href="blog.html" aria-disabled="true">BLOG</a>
                       </li>
                 </ul>
                 <ul id="btn_ul" >
@@ -71,31 +71,31 @@
               <h5 class="offcanvas-title" id="offcanvasExampleLabel">Cravefx</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
+            <div class="offcanvas-body btn-pink text-white fw-bold ">
               <div class="dropdown mt-3">
-                <ul class="navbar-nav nav-underline mx-auto mb-2 mb-lg-0 text-center" id="ul_link">
+                <ul class="navbar-nav  nav-underline mb-2 mb-lg-0 text-center" id="ul_link">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+                    <a class="nav-link"  href="about.html">ABOUT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#" aria-disabled="true">SERVICES</a>
+                    <a class="nav-link" href="services.html" aria-disabled="true">SERVICES</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#" aria-disabled="true">WORK</a>
+                    <a class="nav-link" href="work.html" aria-disabled="true">WORK</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#" aria-disabled="true">MEDIA</a>
+                    <a class="nav-link" href="media.html" aria-disabled="true">MEDIA</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#" aria-disabled="true">SHOWREEL</a>
+                    <a class="nav-link" href="showreel.html" aria-disabled="true">SHOWREEL</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#" aria-disabled="true">BLOG</a>
+                    <a class="nav-link" href="blog.html" aria-disabled="true">BLOG</a>
                   </li>
                 </ul>
-               <ul id="btn_ul">
+               <ul id="btn_ul mx-auto " style="list-style:none;">
                  <li>
-                    <a class="nav-link btn-pink" id="self_btn" href="#" data-aos="fade-up" >GET A QUATE</a>
+                    <a class="nav-link btn-pink " id="self_btn" href="#" data-aos="fade-up" >GET A QUATE</a>
                   </li>
                </ul> 
               </div>
@@ -484,15 +484,19 @@
  </footer>
 <!-- footer section end -->
 <!-- Fixed button start -->
- <div class="myfixed_btn">
-  <a data-bs-toggle="modal" data-bs-dismiss="whatsapp_Qr" data-bs-target="#myformModal"><img src="./assist/img/whatsapp_img.webp" alt="" height="40%" width="100px" data-bs-target="#whatsapp_Qr"></a>
- <div class="modal" tabindex="-1" id="myformModal" data-bs-dismiss="">
-    <div id="whatsapp_Qr" class="bg-yellow">
-          <img src="./assist/img/whatsapp_QR_img.png" alt="" width="100%"  style="border-radius: 20px;">
+ <div class="myfixed_btn" data-bs-target="#modal-fixed" type="button" class="btn btn-primary" data-bs-toggle="modal">
+    <img src="./assist/img/whatsapp_img.webp"  width="100px">
+ </div>
+ <div class="modal fade"  id="modal-fixed">
+    <div class="modal-dialog modal-sm fixed-bottom start-50">
+      <div class="modal-content">
+        <button type="button" class="btn-close position-absolute z-3 end-0 top-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-body text-center">
+            <img src="./assist/img/whatsapp_QR_img.png" alt="QR_img" width="200px">
+          </div>
       </div>
-   </div>
-</div>
-
+    </div>
+  </div>
 <!-- Fixed button end -->
 
     <!-- bootstrap js link -->
