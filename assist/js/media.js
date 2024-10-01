@@ -1,4 +1,5 @@
-console.log("hello");
+// check for connectivity
+console.log("connect successfully..");
 
 const mynav = document.querySelector('.navbar');
 
@@ -17,7 +18,8 @@ window.addEventListener('scroll',()=>{
 
 AOS.init();
 
-//   ------------------------------------------
+
+
 
 new Swiper('.slider-wrapper', {
     // Optional parameters
@@ -38,20 +40,16 @@ new Swiper('.slider-wrapper', {
     },
 
     breakpoints: {
-        0: {
-            slidesPerView: 6
-        },
-        576: {
-            slidesPerView: 6
-        }
-        ,
-        1200: {
-            slidesPerView: 6
-        }
+        // 0: {
+        //     slidesPerView: 2.35
+        // },
+        // 576: {
+        //     slidesPerView: 2.35
+        // }
+        // ,
+        // 1200: {
+        //     slidesPerView: 2.35
+        // }
     }
 
 });
-
-
-
-
