@@ -39,10 +39,13 @@ new Swiper('.slider-wrapper', {
 
     breakpoints: {
         0: {
-            slidesPerView: 6
+            slidesPerView: 2
         },
         576: {
-            slidesPerView: 6
+            slidesPerView: 3
+        },
+        768: {
+            slidesPerView: 4
         }
         ,
         1200: {
