@@ -1,5 +1,17 @@
 console.log("hello");
 
+//code for preloader 
+
+var preloader = document.getElementById('preloader')
+window.addEventListener('load',() => {
+
+    setTimeout('l()', 1000)
+})
+function l(){
+    preloader.style.display = "none";
+}
+
+// code for navbar
 const mynav = document.querySelector('.navbar');
 
 window.addEventListener('scroll',()=>{
